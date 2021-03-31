@@ -1,0 +1,67 @@
+.btn-primary {
+    background: #ff9900;
+    border: none;
+    padding: 15px 40px 15px 40px;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.btn-primary:hover {
+    background: #df8601;
+    border: none;
+}
+
+.btn-secondary {
+    background: none;
+    border: 1px solid #d4d4d4;
+    color: #000;
+    padding: 8px 40px 8px 40px;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.btn-secondary:hover {
+    background: none;
+    border: 1px solid #d4d4d4;
+    color: #000;
+}
+
+.btn-success {
+    background: #ff9900;
+    border: none;
+    padding: 8px 40px 8px 40px;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.btn-success:hover {
+    background: #df8601;
+    border: none;
+}
+
+.hero {
+    font-family: 'Poppins', sans-serif;
+}
+
+.hero h1 {
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+
+.hero p {
+    font-weight: 400;
+    margin-bottom: 45px;
+}
+
+li {
+    align-self: center;
+}
+
+
+/* Small devices (landscape phones, 576px and up) */
+@media only screen and (max-width: 768px) { 
+    .btn-success, .btn-secondary {
+        margin-top: 15px;
+        margin-left: 0 !important;
+    }
+}
